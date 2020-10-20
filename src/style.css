@@ -1,0 +1,35 @@
+h1 {
+    color: brown;
+}
+
+p {
+    width: 800px;
+}
+
+.radioKnop {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radioKnop:checked + label {
+    background-color: rgb(180, 180, 180);
+}
+
+.label {
+    margin: 0px 6px 0px 0px;
+    padding: 3px 5px 3px 5px;
+    background-color: grey;
+    color: white;
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+
+    border-radius: 3px;
+}
+
+.label:hover {
+    background-color: rgb(180, 180, 180);
+}
+
