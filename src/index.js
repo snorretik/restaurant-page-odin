@@ -1,9 +1,9 @@
 import { pageLoadFunc } from './pageLoad'
-import { aboutTab } from './pageTabAbout'
+import aboutTabAlt from './pageTabAbout'
 import { menuTab } from './pageTabMenu'
 import { contactTab } from './pageTabContact'
 
 pageLoadFunc();
-aboutTab();
+aboutTabAlt();
 menuTab();
 contactTab();

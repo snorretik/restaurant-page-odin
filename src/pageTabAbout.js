@@ -32,4 +32,4 @@ const aboutTab = () => {
 
 }
 
-export { aboutTab }
+export default aboutTab
